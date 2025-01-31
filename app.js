@@ -32,9 +32,10 @@ function sortearAmigo(){
         
     } else {
         alert("Todos os amigos já foram sorteados.")
-        campo.innerHTML = "Todos os amigos já foram sorteados.";
+        //campo.innerHTML = "Não existe amigo secreto cadastrado.";
         //campo.innerHTML = "";
         amigo = [];
         contador = 0;
+        location.reload();
     }
 }
