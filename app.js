@@ -1,10 +1,6 @@
-//O principal objetivo deste desafio é fortalecer suas habilidades em lógica de programação. Aqui você deverá desenvolver a lógica para resolver o problema.
-
-
-    let amigo = [];
-    let contador = 0;
-    let campo ="";
-
+let amigo = [];
+let contador = 0;
+let campo ="";
 
 function limparCampo(){
     campo = document.querySelector("input");
@@ -42,18 +38,3 @@ function sortearAmigo(){
         contador = 0;
     }
 }
-
-/*
-Ao apertar o botão amigo secreto:
-Apresentar ao usuário uma lista dos nome e solicitar que clique em seu nome;
-Realizar um filtro no array retirando essa pessoa pra que ela não tire ela mesma no sorteio;
-Fazer o sorteio sem essa pessoa na lista;
-Informar Fulano de tal o seu amigo secreto é Beltrano de Tal;
-
-Verificar se nome já não está cadastrado na base de dados;
-Caso já esteja informar que já consta na base de dados;
-
-
-
-
-*/
