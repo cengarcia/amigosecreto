@@ -7,7 +7,7 @@ Armazena os nomes dos amigos secretos e depois sorteia aleatoriamente o nome de 
 **Botão Adicionar:**
    Digite o nome da pessoa para cadastrar na lista de sorteio.
   
- **Sortear:**
+ **Botão Sortear:**
     Clique em Sortear para que o aplicativo sortei o seu amigo secreto.
     Um nome será sorteado aleatoriamente da lista e exibido na tela.
 
