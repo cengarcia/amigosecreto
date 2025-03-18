@@ -1,36 +1,21 @@
-Amigo-Secreto
 
-Sorteia nome de amigos secretos.
+**Amigo-Secreto**
 
-Funções:
+Armazena os nomes dos amigos secretos e depois sorteia aleatoriamente o nome de amigos secretos até que o último seja sorteado.
 
-Adicionar Amigos: Insira o nome de um amigo no campo de texto e clique em "Adicionar" para incluí-lo na lista.
-Listar Amigos: Todos os nomes adicionados são exibidos em uma lista na tela.
-Sortear Amigo Secreto: Clique em "Sortear" para escolher um nome aleatório da lista. O nome sorteado será exibido na tela.
-- Limpar Lista: Após o sorteio, a lista de amigos é automaticamente limpa para um novo sorteio.
 
-Adicionar:
-
-    Digite o nome de um amigo no campo de texto.
-    Clique no botão "Adicionar" ou pressione "Enter".
-    O nome será adicionado à lista de amigos.
-
+Botão Adicionar:
+   Digite o nome da pessoa para cadastrar na lista de sorteio.
+  
  Sortear:
-    Clique no botão "Sortear".
+    Clique em Sortear para que o aplicativo sortei o seu amigo secreto.
     Um nome será sorteado aleatoriamente da lista e exibido na tela.
-    A lista de amigos será limpa automaticamente.
 
 Funções:
-adicionarAmigo()
-Adiciona o nome digitado à lista de amigos.
-Atualiza a lista exibida na tela.
+limparCampo() Limpa o campo para que seja possivel digitar o próximo nome.
+adicionarAmigo() Adiciona um novo amigo a lista de sorteio.
+sortearAmigo() Indica o Amigo secreto da pessoa e da baixa na lista.
 
-atualizarlista():
-Limpa a lista atual e exibe todos os nomes adicionados.
-
-sortearAmigo()
-Sorteia um nome aleatório da lista.
-Exibe o nome sorteado e limpa a lista para um novo ciclo.
 
 Tecnologias
 - HTML: Estrutura da página.
